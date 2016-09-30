@@ -1,0 +1,10 @@
+.selected{
+  background-color: greenyellow;
+}
+.titleBar{
+  text-align: center;
+}
+
+.selected.pending{
+  background-color: deepskyblue;
+}

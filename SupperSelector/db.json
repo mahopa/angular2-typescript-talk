@@ -1,0 +1,19 @@
+{
+  "meals": [
+    {
+      "name": "Pizza",
+      "imageUrl": "http://www.cicis.com/media/1243/pizza_adven_zestypepperoni.png",
+      "id": 5
+    },
+    {
+      "name": "Tacos",
+      "imageUrl": "http://www.tacobueno.com/media/1338/partytacolarge.png?quality=65",
+      "id": 6
+    },
+    {
+      "name": "Steak",
+      "imageUrl": "http://www.omahasteaks.com/gifs/os/dd_01_filet.jpg",
+      "id": 7
+    }
+  ]
+}

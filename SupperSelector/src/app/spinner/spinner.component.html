@@ -1,0 +1,17 @@
+<div class="well-lg">
+  <div class="row">
+    <div *ngFor="let option of options; let i = index" class="col-md-3">
+      <div class="well" [ngClass]="{'selected': i == selected, 'pending':pending}">
+        <div class="row titleBar">{{option.name}}</div>
+        <div class="row">
+          <div class="col-md-12">
+            <img class="img-responsive" [src]="option.imageUrl">
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-12">
+      <div class="btn btn-success" (click)="selectOption()">Pick!</div>
+    </div>
+  </div>
+</div>
