@@ -1,1 +1,1 @@
-# angular2-typescript-talk
+# Angular2 Typescript Talk
